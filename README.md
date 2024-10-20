@@ -58,7 +58,7 @@ pip install -r requirements.txt
 <h2 id="usage">📝 Usage</h2>
 <p>To run the server:</p>
 <pre>
-python main.py
+python run.py
 </pre>
 <p>Navigate to <a href="http://localhost:8000">http://localhost:8000</a> and enter the target domain to start the recon process. The real-time logs will be displayed on the webpage, and the results can be downloaded directly.</p>
 
