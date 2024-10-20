@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Bug Bounty Framework</title>
-</head>
 <body>
 
 <h1 align="center">🔍 Bug Bounty Framework</h1>
