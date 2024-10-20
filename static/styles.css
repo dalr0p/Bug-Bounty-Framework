@@ -1,0 +1,137 @@
+/* General styling */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #2e2e2e;
+  color: #e0e0e0;
+}
+
+h1 {
+  color: #c084f5;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  padding: 12px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #333;
+  color: #e0e0e0;
+}
+
+button {
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #9147ff;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #a970ff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#logs {
+  background-color: #1e1e1e;
+  border: 1px solid #444;
+  padding: 20px;
+  height: 350px;
+  overflow-y: scroll;
+  color: #e0e0e0;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#logs-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Subdomains download button */
+#download-link {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #9147ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#download-link:hover {
+  background-color: #a970ff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Alive subdomains download button */
+#download-alive-link {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#download-alive-link:hover {
+  background-color: #32cd32;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Katana output download button */
+#download-katana-link {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #ff5722;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#download-katana-link:hover {
+  background-color: #ff7043;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.disclaimer {
+  color: #bbb;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9147ff;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a970ff;
+}
