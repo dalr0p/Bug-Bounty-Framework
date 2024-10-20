@@ -50,6 +50,13 @@ git clone https://github.com/yourusername/bug-bounty-framework.git
 cd bug-bounty-framework
 pip install -r requirements.txt
 </pre>
+<p>Make sure to install the following tools separately:</p>
+<ul>
+    <li><b>Subfinder:</b> <code>go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest</code></li>
+    <li><b>Katana:</b> <code>go install github.com/projectdiscovery/katana/cmd/katana@latest</code></li>
+    <li><b>Dalfox:</b> <code>go install github.com/hahwul/dalfox/v2@latest</code></li>
+</ul>
+<p>Ensure that your <code>GOPATH</code> is set up correctly, and the installed binaries are available in your <code>PATH</code> environment variable.</p>
 
 <h2 id="usage">📝 Usage</h2>
 <p>To run the server:</p>
@@ -97,7 +104,7 @@ python run.py
 <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
 
 <h2 id="author">👤 Author</h2>
-<p>Marcos Ryan Foley Sanchez - <a href="[https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/marcosfoley/)">LinkedIn</a></p>
+<p>Marcos Ryan Foley Sanchez - <a href="https://www.linkedin.com/in/marcosfoley/">LinkedIn</a></p>
 
 <div align="center">
     <p>Made with ❤️ by Marcos Ryan Foley Sanchez</p>
