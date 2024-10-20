@@ -7,6 +7,10 @@
     This project is currently being developed and will eventually support Docker for easy deployment.
 </p>
 
+
+![image](https://github.com/user-attachments/assets/dbfbe8f3-e3f5-447e-9888-eb3343a22d4c)
+
+
 <h1 align="center">🔍 Bug Bounty Framework</h1>
 <p align="center">
     A comprehensive bug bounty framework for domain reconnaissance and vulnerability assessment, built using Python and FastAPI.
