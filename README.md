@@ -55,7 +55,7 @@
 
 <h2 id="installation">📦 Installation</h2>
 <pre>
-git clone https://github.com/yourusername/bug-bounty-framework.git
+git clone https://github.com/dalr0p/bug-bounty-framework.git
 cd bug-bounty-framework
 pip install -r requirements.txt
 </pre>
